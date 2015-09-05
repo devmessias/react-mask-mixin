@@ -8,6 +8,9 @@
   <div id="example1"></div>
   IATA code:
   <div id="example2"></div>
+  IATA code:
+  <div id="example3"></div>
+
   <a href="https://github.com/borbit/react-mask-mixin">Details on GitHub</a>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react-with-addons.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js"></script>
@@ -34,6 +37,12 @@
       placeholder: 'AAA',
       size: 50
     }), example2)
+    React.render(React.createElement(Input, {
+      mask: '1',
+      placeholder: '1',
+      size: 50
+    }), example3)
+
   </script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
